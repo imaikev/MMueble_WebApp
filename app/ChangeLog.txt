@@ -1,0 +1,31 @@
+Webapp - ChangeLog
+======================
+
+2.7 (2018-04-14)
+- issue # store stock detail is supported
+
+2.6 (2018-04-10)
+- issue # Remove shadow from the logo
+- issue # Fixed rendering of query results
+- issue # Improved handling of uploaded files
+- issue # Added Custom Software download page
+
+2.5 (2018-02-19)
+- issue # Add custom logo
+- issue # Improved search bar
+- issue #Improved upload photo gallery tool
+
+2.4 (2018-02-19)
+- issue # photo gallery is supported
+
+2.3 (2018-01-28)
+- issue #  Improved look and fell
+
+2.2 (2017-12-16)
+- issue #  Improved using Materialize
+
+2.1 (2017-12-16)
+- issue # Improved upload database tool
+
+1.0 (2017-07-01)
+- initial release

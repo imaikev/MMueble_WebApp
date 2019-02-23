@@ -1,0 +1,30 @@
+
+Security XAMPP
+-------------------
+
+1 - Change phpmyadmim alias
+
+Change the alias in the config file of XAMPP : httpd-xampp.conf
+
+ Alias /tools "C:/xampp/phpMyAdmin/"
+ 
+
+2 - Change root password
+
+3 - Add new user 
+ 
+4 - disable root user
+ 
+ add this lines into the file config.inc.php
+ 
+$cfg['Servers'][$i]['auth_type'] = 'cookie';
+$cfg['Servers'][$i]['AllowRoot'] = false;
+
+5 - maximun max file size - php.ini
+
+upload_max_filesize=5M
+
+6 - Execution time - php.ini
+
+max_execution_time=120
+
