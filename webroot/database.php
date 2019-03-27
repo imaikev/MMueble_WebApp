@@ -2,7 +2,7 @@
 class Database
 {
     private static $dbName = 'prd' ;
-    private static $dbHost = 'localhost' ;
+    private static $dbHost = 'mysql' ;
     private static $dbUsername = 'prd';
     private static $dbUserPassword = 'prd';
      
