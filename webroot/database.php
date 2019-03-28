@@ -19,7 +19,7 @@ class Database
        {     
         try
         {
-          self::$cont =  new PDO( 'mysql:host='.$_SERVER('MYSQL_SERVICE_HOST')','dbname=prd',self::$dbName, self::$dbUsername, self::$dbUserPassword); 
+          self::$cont =  new PDO( self::$dbHost,'dbname=prd',self::$dbName, self::$dbUsername, self::$dbUserPassword); 
           self::$cont->exec("set names utf8");
 
         }
