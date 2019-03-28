@@ -3,7 +3,7 @@ class Database
 {
     private static $dbName = 'prd' ;
     //private static $dbHost = getenv("MYSQL_SERVICE_HOST");
-    private $dbHost = getenv('MYSQL_SERVICE_HOST');
+    $dbHost = getenv('MYSQL_SERVICE_HOST');
     private static $dbUsername = 'prd';
     private static $dbUserPassword = 'prd';
      
