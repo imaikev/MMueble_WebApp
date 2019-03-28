@@ -18,6 +18,7 @@
 body {
     margin: 0;
 }
+
 header {
     position: fixed;
     top: 0;
@@ -26,6 +27,8 @@ header {
     height: 100px;
     background: cyan;
 }
+
+
 .content {
     position: relative;
     z-index: 1;
@@ -42,9 +45,11 @@ footer {
     background: green;
     height: 60px;
 }
+
 h4 {
     color: 	#F5FFFA;
 }
+
 nav-wrapper{
 	.dropdown-button{position:absolute; right:0; top : 0;
      height: 50px;	
@@ -52,15 +57,20 @@ nav-wrapper{
 	}
 	
 }
+
+
 input[type=text] {
     width: 130px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
+
 /* When the input field gets focus, change its width to 100% */
 input[type=text]:focus {
     width: 100%;
 }
+
+
 </style>
 
   <div class="nav-wrapper  teal center" >

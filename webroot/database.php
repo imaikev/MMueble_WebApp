@@ -2,7 +2,7 @@
 class Database
 {
     private static $dbName = 'prd' ;
-    private static $dbHost = 'mysql' ;
+    private static $dbHost = 'localhost' ;
     private static $dbUsername = 'prd';
     private static $dbUserPassword = 'prd';
      
@@ -21,6 +21,7 @@ class Database
         {
           self::$cont =  new PDO( "mysql:host=".self::$dbHost.";"."dbname=".self::$dbName, self::$dbUsername, self::$dbUserPassword); 
           self::$cont->exec("set names utf8");
+
         }
         catch(PDOException $e)
         {
@@ -36,3 +37,4 @@ class Database
     }
 }
 ?>
+        
