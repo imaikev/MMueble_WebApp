@@ -2,7 +2,8 @@
 class Database
 {
     private static $dbName = 'prd' ;
-    private static $dbHost = $_SERVER('MYSQL_SERVICE_HOST');
+  //  private static $dbHost = $_SERVER('MYSQL_SERVICE_HOST');
+    private static $dbHost = '172.30.86.142';    
     private static $dbUsername = 'prd';
     private static $dbUserPassword = 'prd';
      
