@@ -2,7 +2,7 @@
 class Database
 {
     private static $dbName = 'prd' ;
-   // private static $dbHost = $_SERVER('MYSQL_SERVICE_HOST');
+    private static $dbHost = $_SERVER('MYSQL_SERVICE_HOST');
     private static $dbUsername = 'prd';
     private static $dbUserPassword = 'prd';
      
@@ -19,7 +19,7 @@ class Database
        {     
         try
         {
-          self::$cont =  new PDO( $_SERVER('MYSQL_SERVICE_HOST'),self::$dbName, self::$dbUsername, self::$dbUserPassword); 
+          self::$cont =  new PDO( 'mysql:host='.$_SERVER('MYSQL_SERVICE_HOST')','dbname=prd',self::$dbName, self::$dbUsername, self::$dbUserPassword); 
           self::$cont->exec("set names utf8");
 
         }
