@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -79,7 +78,7 @@ input[type=text]:focus {
 					session_start();   					
 		if(!$_SESSION['user'])  
 		{  
-		header("Location: login.php");//redirect to login page to secure the welcome page without login access.  
+		header("Location: webroot/login.php");//redirect to login page to secure the welcome page without login access.  
 		}	  
  		
 	if ( $_SESSION['admin'] ){
