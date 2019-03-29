@@ -2,7 +2,7 @@
 class Database
 {
     private static $dbName = 'prd' ;  
-    private static $dbHost ;   
+    private static $dbHost = $_SERVER['MYSQL_SERVICE_HOST'];
     private static $dbUsername = 'prd';
     private static $dbUserPassword = 'prd';
      
@@ -14,7 +14,7 @@ class Database
      
     public static function connect()
     {
-        $dbHost = $_SERVER['MYSQL_SERVICE_HOST'];
+        
        // One connection through whole application
        if ( null == self::$cont )
        {     
